@@ -9,6 +9,8 @@ func main() {
 	ch1 := make(chan string)
 	ch2 := make(chan string)
 
+	fmt.Println("the program started")
+
 	for {
 		go func() {
 			time.Sleep(1 * time.Second)
